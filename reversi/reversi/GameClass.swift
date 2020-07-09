@@ -12,4 +12,7 @@ class GameClass: NSObject {
     func test(){
         print("test")
     }
+    func put(tag: Int){
+        
+    }
 }

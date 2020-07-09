@@ -15,559 +15,367 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="deJ-F7-K9Y">
-                                <rect key="frame" x="33" y="270.5" width="348" height="355"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="AeL-uM-ESg">
+                                <rect key="frame" x="9" y="314" width="396" height="268"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="LrB-fm-rHp">
-                                        <rect key="frame" x="0.0" y="0.0" width="348" height="40"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="RwM-Zo-cgl">
+                                        <rect key="frame" x="0.0" y="0.0" width="396" height="30"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="rNS-Yj-ddm" customClass="MyImageView" customModule="othello_reversi" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
-                                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="40" id="H1y-Hl-GRz"/>
-                                                    <constraint firstAttribute="width" constant="40" id="cJy-6A-071"/>
-                                                </constraints>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="mFk-Lo-DeX" customClass="MyImageView" customModule="othello_reversi" customModuleProvider="target">
-                                                <rect key="frame" x="44" y="0.0" width="40" height="40"/>
-                                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="40" id="6HB-6Q-BfA"/>
-                                                    <constraint firstAttribute="height" constant="40" id="umR-Ez-Vbs"/>
-                                                </constraints>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cta-Vr-4dv" customClass="MyImageView" customModule="othello_reversi" customModuleProvider="target">
-                                                <rect key="frame" x="88" y="0.0" width="40" height="40"/>
-                                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="40" id="fca-Th-hIl"/>
-                                                    <constraint firstAttribute="width" constant="40" id="yah-SC-sio"/>
-                                                </constraints>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="WDJ-r0-XXS" customClass="MyImageView" customModule="othello_reversi" customModuleProvider="target">
-                                                <rect key="frame" x="132" y="0.0" width="40" height="40"/>
-                                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="40" id="0GB-Ma-UuE"/>
-                                                    <constraint firstAttribute="height" constant="40" id="nOx-Si-dXZ"/>
-                                                </constraints>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2vP-eK-GIl" customClass="MyImageView" customModule="othello_reversi" customModuleProvider="target">
-                                                <rect key="frame" x="176" y="0.0" width="40" height="40"/>
-                                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="40" id="PLm-M9-o8J"/>
-                                                    <constraint firstAttribute="width" constant="40" id="ykT-yj-RJZ"/>
-                                                </constraints>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="7mm-hH-IY3" customClass="MyImageView" customModule="othello_reversi" customModuleProvider="target">
-                                                <rect key="frame" x="220" y="0.0" width="40" height="40"/>
-                                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="40" id="F7w-f9-MUl"/>
-                                                    <constraint firstAttribute="width" constant="40" id="fTc-AZ-ucN"/>
-                                                </constraints>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5FH-Yl-6xQ" customClass="MyImageView" customModule="othello_reversi" customModuleProvider="target">
-                                                <rect key="frame" x="264" y="0.0" width="40" height="40"/>
-                                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="40" id="fve-Xf-S7X"/>
-                                                    <constraint firstAttribute="width" constant="40" id="pBN-hy-bdU"/>
-                                                </constraints>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="eyH-iN-gFW" customClass="MyImageView" customModule="othello_reversi" customModuleProvider="target">
-                                                <rect key="frame" x="308" y="0.0" width="40" height="40"/>
-                                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="40" id="5gA-tl-0jT"/>
-                                                    <constraint firstAttribute="width" constant="40" id="X0Q-FJ-d49"/>
-                                                </constraints>
-                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N0c-uB-idd">
+                                                <rect key="frame" x="0.0" y="0.0" width="46" height="30"/>
+                                                <color key="backgroundColor" red="0.0035728536969999998" green="0.51687985749999998" blue="0.019130363090000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="48M-xr-8an">
+                                                <rect key="frame" x="50" y="0.0" width="46" height="30"/>
+                                                <color key="backgroundColor" red="0.0035728536969999998" green="0.51687985749999998" blue="0.019130363090000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GeI-Kx-hPp">
+                                                <rect key="frame" x="100" y="0.0" width="46" height="30"/>
+                                                <color key="backgroundColor" red="0.0035728536969999998" green="0.51687985749999998" blue="0.019130363090000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XEf-n5-scz">
+                                                <rect key="frame" x="150" y="0.0" width="46" height="30"/>
+                                                <color key="backgroundColor" red="0.0035728536969999998" green="0.51687985749999998" blue="0.019130363090000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mUx-7R-nD1">
+                                                <rect key="frame" x="200" y="0.0" width="46" height="30"/>
+                                                <color key="backgroundColor" red="0.0035728536969999998" green="0.51687985749999998" blue="0.019130363090000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TuV-al-3oe">
+                                                <rect key="frame" x="250" y="0.0" width="46" height="30"/>
+                                                <color key="backgroundColor" red="0.0035728536969999998" green="0.51687985749999998" blue="0.019130363090000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eOp-US-DUf">
+                                                <rect key="frame" x="300" y="0.0" width="46" height="30"/>
+                                                <color key="backgroundColor" red="0.0035728536969999998" green="0.51687985749999998" blue="0.019130363090000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y81-kW-uKi">
+                                                <rect key="frame" x="350" y="0.0" width="46" height="30"/>
+                                                <color key="backgroundColor" red="0.0035728536969999998" green="0.51687985749999998" blue="0.019130363090000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="od6-t6-cN7">
-                                        <rect key="frame" x="0.0" y="45" width="348" height="40"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="KrM-II-bSV">
+                                        <rect key="frame" x="0.0" y="34" width="396" height="30"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5Yz-Zb-xg8" customClass="MyImageView" customModule="othello_reversi" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
-                                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="40" id="3OJ-fh-Z1k"/>
-                                                    <constraint firstAttribute="height" constant="40" id="Nhf-Gf-No7"/>
-                                                </constraints>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="AO7-0d-QAf" customClass="MyImageView" customModule="othello_reversi" customModuleProvider="target">
-                                                <rect key="frame" x="44" y="0.0" width="40" height="40"/>
-                                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="40" id="n7T-eM-MgO"/>
-                                                    <constraint firstAttribute="height" constant="40" id="p68-zU-EH8"/>
-                                                </constraints>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="oqq-DF-iKy" customClass="MyImageView" customModule="othello_reversi" customModuleProvider="target">
-                                                <rect key="frame" x="88" y="0.0" width="40" height="40"/>
-                                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="40" id="fNU-R3-R0c"/>
-                                                    <constraint firstAttribute="width" constant="40" id="wRb-EO-FMp"/>
-                                                </constraints>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="eme-l4-Fuf" customClass="MyImageView" customModule="othello_reversi" customModuleProvider="target">
-                                                <rect key="frame" x="132" y="0.0" width="40" height="40"/>
-                                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="40" id="DVo-EV-ngJ"/>
-                                                    <constraint firstAttribute="height" constant="40" id="i5e-1y-aKv"/>
-                                                </constraints>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="GsJ-s9-hzK" customClass="MyImageView" customModule="othello_reversi" customModuleProvider="target">
-                                                <rect key="frame" x="176" y="0.0" width="40" height="40"/>
-                                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="40" id="gRC-no-eCl"/>
-                                                    <constraint firstAttribute="width" constant="40" id="jqZ-za-bdp"/>
-                                                </constraints>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="mvO-0u-1b4" customClass="MyImageView" customModule="othello_reversi" customModuleProvider="target">
-                                                <rect key="frame" x="220" y="0.0" width="40" height="40"/>
-                                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="40" id="dOe-7N-dhS"/>
-                                                    <constraint firstAttribute="height" constant="40" id="nyJ-Lp-gmP"/>
-                                                </constraints>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3m6-yc-Des" customClass="MyImageView" customModule="othello_reversi" customModuleProvider="target">
-                                                <rect key="frame" x="264" y="0.0" width="40" height="40"/>
-                                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="40" id="6GP-w0-3ZX"/>
-                                                    <constraint firstAttribute="height" constant="40" id="iyU-KK-NSb"/>
-                                                </constraints>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="aof-pq-ILG" customClass="MyImageView" customModule="othello_reversi" customModuleProvider="target">
-                                                <rect key="frame" x="308" y="0.0" width="40" height="40"/>
-                                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="40" id="W8S-9x-kJj"/>
-                                                    <constraint firstAttribute="height" constant="40" id="iAa-MR-ocD"/>
-                                                </constraints>
-                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U4I-Pn-9JK">
+                                                <rect key="frame" x="0.0" y="0.0" width="46" height="30"/>
+                                                <color key="backgroundColor" red="0.0035728536969999998" green="0.51687985749999998" blue="0.019130363090000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UOk-yn-W9i">
+                                                <rect key="frame" x="50" y="0.0" width="46" height="30"/>
+                                                <color key="backgroundColor" red="0.0035728536969999998" green="0.51687985749999998" blue="0.019130363090000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Zg-sL-Mpw">
+                                                <rect key="frame" x="100" y="0.0" width="46" height="30"/>
+                                                <color key="backgroundColor" red="0.0035728536969999998" green="0.51687985749999998" blue="0.019130363090000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VsC-1p-pRs">
+                                                <rect key="frame" x="150" y="0.0" width="46" height="30"/>
+                                                <color key="backgroundColor" red="0.0035728536969999998" green="0.51687985749999998" blue="0.019130363090000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="prW-0G-JBD">
+                                                <rect key="frame" x="200" y="0.0" width="46" height="30"/>
+                                                <color key="backgroundColor" red="0.0035728536969999998" green="0.51687985749999998" blue="0.019130363090000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XTx-R1-Fan">
+                                                <rect key="frame" x="250" y="0.0" width="46" height="30"/>
+                                                <color key="backgroundColor" red="0.0035728536969999998" green="0.51687985749999998" blue="0.019130363090000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6HT-b1-RXA">
+                                                <rect key="frame" x="300" y="0.0" width="46" height="30"/>
+                                                <color key="backgroundColor" red="0.0035728536969999998" green="0.51687985749999998" blue="0.019130363090000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mNb-z4-yJf">
+                                                <rect key="frame" x="350" y="0.0" width="46" height="30"/>
+                                                <color key="backgroundColor" red="0.0035728536969999998" green="0.51687985749999998" blue="0.019130363090000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="1vf-Is-Z3z">
-                                        <rect key="frame" x="0.0" y="90" width="348" height="40"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="8d9-uW-akF">
+                                        <rect key="frame" x="0.0" y="68" width="396" height="30"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="auI-Ox-epn" customClass="MyImageView" customModule="othello_reversi" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
-                                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="40" id="Dgk-hY-cMs"/>
-                                                    <constraint firstAttribute="height" constant="40" id="g1S-2M-9h8"/>
-                                                </constraints>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Mzy-dW-jmW" customClass="MyImageView" customModule="othello_reversi" customModuleProvider="target">
-                                                <rect key="frame" x="44" y="0.0" width="40" height="40"/>
-                                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="40" id="4cx-RW-oOC"/>
-                                                    <constraint firstAttribute="height" constant="40" id="itj-lu-THz"/>
-                                                </constraints>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0n4-HK-1XB" customClass="MyImageView" customModule="othello_reversi" customModuleProvider="target">
-                                                <rect key="frame" x="88" y="0.0" width="40" height="40"/>
-                                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="40" id="0aL-FF-n5y"/>
-                                                    <constraint firstAttribute="width" constant="40" id="tNn-S8-Rt0"/>
-                                                </constraints>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="CgX-47-9xz" customClass="MyImageView" customModule="othello_reversi" customModuleProvider="target">
-                                                <rect key="frame" x="132" y="0.0" width="40" height="40"/>
-                                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="40" id="OCu-4b-hPV"/>
-                                                    <constraint firstAttribute="height" constant="40" id="cii-EG-4YR"/>
-                                                </constraints>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9FQ-lK-DRj" customClass="MyImageView" customModule="othello_reversi" customModuleProvider="target">
-                                                <rect key="frame" x="176" y="0.0" width="40" height="40"/>
-                                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="40" id="3la-k0-hZm"/>
-                                                    <constraint firstAttribute="width" constant="40" id="sBc-Ww-JFh"/>
-                                                </constraints>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="uAE-oJ-htN" customClass="MyImageView" customModule="othello_reversi" customModuleProvider="target">
-                                                <rect key="frame" x="220" y="0.0" width="40" height="40"/>
-                                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="40" id="MXY-Jn-DhR"/>
-                                                    <constraint firstAttribute="width" constant="40" id="Th0-uE-bCT"/>
-                                                </constraints>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9xf-cc-9BS" customClass="MyImageView" customModule="othello_reversi" customModuleProvider="target">
-                                                <rect key="frame" x="264" y="0.0" width="40" height="40"/>
-                                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="40" id="aMs-iB-eI5"/>
-                                                    <constraint firstAttribute="height" constant="40" id="tFw-IM-0gM"/>
-                                                </constraints>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ofb-0B-o3w" customClass="MyImageView" customModule="othello_reversi" customModuleProvider="target">
-                                                <rect key="frame" x="308" y="0.0" width="40" height="40"/>
-                                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="40" id="PKh-H7-MDc"/>
-                                                    <constraint firstAttribute="width" constant="40" id="UkE-Zs-R1J"/>
-                                                </constraints>
-                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Hj-Ls-wxD">
+                                                <rect key="frame" x="0.0" y="0.0" width="46" height="30"/>
+                                                <color key="backgroundColor" red="0.0035728536969999998" green="0.51687985749999998" blue="0.019130363090000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xZG-Qc-ekQ">
+                                                <rect key="frame" x="50" y="0.0" width="46" height="30"/>
+                                                <color key="backgroundColor" red="0.0035728536969999998" green="0.51687985749999998" blue="0.019130363090000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DW3-Xt-VEy">
+                                                <rect key="frame" x="100" y="0.0" width="46" height="30"/>
+                                                <color key="backgroundColor" red="0.0035728536969999998" green="0.51687985749999998" blue="0.019130363090000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X9j-gC-x0q">
+                                                <rect key="frame" x="150" y="0.0" width="46" height="30"/>
+                                                <color key="backgroundColor" red="0.0035728536969999998" green="0.51687985749999998" blue="0.019130363090000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VkK-dc-KCo">
+                                                <rect key="frame" x="200" y="0.0" width="46" height="30"/>
+                                                <color key="backgroundColor" red="0.0035728536969999998" green="0.51687985749999998" blue="0.019130363090000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QUp-Y9-30D">
+                                                <rect key="frame" x="250" y="0.0" width="46" height="30"/>
+                                                <color key="backgroundColor" red="0.0035728536969999998" green="0.51687985749999998" blue="0.019130363090000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vhp-lm-ovl">
+                                                <rect key="frame" x="300" y="0.0" width="46" height="30"/>
+                                                <color key="backgroundColor" red="0.0035728536969999998" green="0.51687985749999998" blue="0.019130363090000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O9T-SO-77x">
+                                                <rect key="frame" x="350" y="0.0" width="46" height="30"/>
+                                                <color key="backgroundColor" red="0.0035728536969999998" green="0.51687985749999998" blue="0.019130363090000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="7k1-7B-Gur">
-                                        <rect key="frame" x="0.0" y="135" width="348" height="40"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="7KI-0M-Mjw">
+                                        <rect key="frame" x="0.0" y="102" width="396" height="30"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ce5-38-UsE" customClass="MyImageView" customModule="othello_reversi" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
-                                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="40" id="5Hs-lS-jrF"/>
-                                                    <constraint firstAttribute="width" constant="40" id="ojA-Bu-xv9"/>
-                                                </constraints>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="iIM-Y5-vhR" customClass="MyImageView" customModule="othello_reversi" customModuleProvider="target">
-                                                <rect key="frame" x="44" y="0.0" width="40" height="40"/>
-                                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="40" id="Kyw-Mr-J5j"/>
-                                                    <constraint firstAttribute="width" constant="40" id="zwe-Ay-og9"/>
-                                                </constraints>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="H4k-0T-mJP" customClass="MyImageView" customModule="othello_reversi" customModuleProvider="target">
-                                                <rect key="frame" x="88" y="0.0" width="40" height="40"/>
-                                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="40" id="ZzB-xx-MaK"/>
-                                                    <constraint firstAttribute="height" constant="40" id="rwg-pH-ie1"/>
-                                                </constraints>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vED-hv-oha" customClass="MyImageView" customModule="othello_reversi" customModuleProvider="target">
-                                                <rect key="frame" x="132" y="0.0" width="40" height="40"/>
-                                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="40" id="ZYe-4n-tM9"/>
-                                                    <constraint firstAttribute="width" constant="40" id="eMo-mY-xNu"/>
-                                                </constraints>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gmB-MA-74X" customClass="MyImageView" customModule="othello_reversi" customModuleProvider="target">
-                                                <rect key="frame" x="176" y="0.0" width="40" height="40"/>
-                                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="40" id="GeA-un-Qte"/>
-                                                    <constraint firstAttribute="height" constant="40" id="Gtq-Q7-s6k"/>
-                                                </constraints>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="BI6-Zk-Un7" customClass="MyImageView" customModule="othello_reversi" customModuleProvider="target">
-                                                <rect key="frame" x="220" y="0.0" width="40" height="40"/>
-                                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="40" id="eQD-BW-U5W"/>
-                                                    <constraint firstAttribute="width" constant="40" id="uZ8-81-2jH"/>
-                                                </constraints>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="HlZ-nk-gph" customClass="MyImageView" customModule="othello_reversi" customModuleProvider="target">
-                                                <rect key="frame" x="264" y="0.0" width="40" height="40"/>
-                                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="40" id="Yob-HG-Hsp"/>
-                                                    <constraint firstAttribute="height" constant="40" id="bzT-ky-flD"/>
-                                                </constraints>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ica-L1-txH" customClass="MyImageView" customModule="othello_reversi" customModuleProvider="target">
-                                                <rect key="frame" x="308" y="0.0" width="40" height="40"/>
-                                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="40" id="KmH-QP-hWZ"/>
-                                                    <constraint firstAttribute="width" constant="40" id="gkb-tZ-lhk"/>
-                                                </constraints>
-                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QaG-5A-gVR">
+                                                <rect key="frame" x="0.0" y="0.0" width="46" height="30"/>
+                                                <color key="backgroundColor" red="0.0035728536969999998" green="0.51687985749999998" blue="0.019130363090000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="De4-f0-goc">
+                                                <rect key="frame" x="50" y="0.0" width="46" height="30"/>
+                                                <color key="backgroundColor" red="0.0035728536969999998" green="0.51687985749999998" blue="0.019130363090000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1qj-Iq-QXQ">
+                                                <rect key="frame" x="100" y="0.0" width="46" height="30"/>
+                                                <color key="backgroundColor" red="0.0035728536969999998" green="0.51687985749999998" blue="0.019130363090000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y82-Ai-9H6">
+                                                <rect key="frame" x="150" y="0.0" width="46" height="30"/>
+                                                <color key="backgroundColor" red="0.0035728536969999998" green="0.51687985749999998" blue="0.019130363090000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q4T-Em-vdn">
+                                                <rect key="frame" x="200" y="0.0" width="46" height="30"/>
+                                                <color key="backgroundColor" red="0.0035728536969999998" green="0.51687985749999998" blue="0.019130363090000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZiF-9J-gXB">
+                                                <rect key="frame" x="250" y="0.0" width="46" height="30"/>
+                                                <color key="backgroundColor" red="0.0035728536969999998" green="0.51687985749999998" blue="0.019130363090000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m8X-L5-EUg">
+                                                <rect key="frame" x="300" y="0.0" width="46" height="30"/>
+                                                <color key="backgroundColor" red="0.0035728536969999998" green="0.51687985749999998" blue="0.019130363090000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="99t-zb-vOi">
+                                                <rect key="frame" x="350" y="0.0" width="46" height="30"/>
+                                                <color key="backgroundColor" red="0.0035728536969999998" green="0.51687985749999998" blue="0.019130363090000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="DtJ-5Z-e44">
-                                        <rect key="frame" x="0.0" y="180" width="348" height="40"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="M2m-wV-4o1">
+                                        <rect key="frame" x="0.0" y="136" width="396" height="30"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9V4-JX-Rda" customClass="MyImageView" customModule="othello_reversi" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
-                                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="40" id="Bep-o5-CHR"/>
-                                                    <constraint firstAttribute="width" constant="40" id="aXn-pC-VM4"/>
-                                                </constraints>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="JVU-81-9lY" customClass="MyImageView" customModule="othello_reversi" customModuleProvider="target">
-                                                <rect key="frame" x="44" y="0.0" width="40" height="40"/>
-                                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="40" id="1FK-u6-74S"/>
-                                                    <constraint firstAttribute="width" constant="40" id="UPF-ah-3MB"/>
-                                                </constraints>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="nd2-w4-fe0" customClass="MyImageView" customModule="othello_reversi" customModuleProvider="target">
-                                                <rect key="frame" x="88" y="0.0" width="40" height="40"/>
-                                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="40" id="LUR-kQ-0ny"/>
-                                                    <constraint firstAttribute="width" constant="40" id="goG-c0-wuT"/>
-                                                </constraints>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tfi-Il-MKO" customClass="MyImageView" customModule="othello_reversi" customModuleProvider="target">
-                                                <rect key="frame" x="132" y="0.0" width="40" height="40"/>
-                                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="40" id="hu5-np-JST"/>
-                                                    <constraint firstAttribute="height" constant="40" id="i5D-mc-NqN"/>
-                                                </constraints>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1VS-1j-DqW" customClass="MyImageView" customModule="othello_reversi" customModuleProvider="target">
-                                                <rect key="frame" x="176" y="0.0" width="40" height="40"/>
-                                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="40" id="2pM-A9-gca"/>
-                                                    <constraint firstAttribute="height" constant="40" id="Kqv-Hp-yl0"/>
-                                                </constraints>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="kmL-iU-niW" customClass="MyImageView" customModule="othello_reversi" customModuleProvider="target">
-                                                <rect key="frame" x="220" y="0.0" width="40" height="40"/>
-                                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="40" id="V7Y-yK-8Ta"/>
-                                                    <constraint firstAttribute="width" constant="40" id="rAf-Qw-y9y"/>
-                                                </constraints>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="L98-EK-HEI" customClass="MyImageView" customModule="othello_reversi" customModuleProvider="target">
-                                                <rect key="frame" x="264" y="0.0" width="40" height="40"/>
-                                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="40" id="Oyd-Q0-XCa"/>
-                                                    <constraint firstAttribute="height" constant="40" id="xbB-dL-hFn"/>
-                                                </constraints>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="LZb-Yq-xK7" customClass="MyImageView" customModule="othello_reversi" customModuleProvider="target">
-                                                <rect key="frame" x="308" y="0.0" width="40" height="40"/>
-                                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="40" id="TXW-3u-Vos"/>
-                                                    <constraint firstAttribute="height" constant="40" id="ZlB-DX-ZnA"/>
-                                                </constraints>
-                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aNg-Wh-jkK">
+                                                <rect key="frame" x="0.0" y="0.0" width="46" height="30"/>
+                                                <color key="backgroundColor" red="0.0035728536969999998" green="0.51687985749999998" blue="0.019130363090000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WvP-pi-8s8">
+                                                <rect key="frame" x="50" y="0.0" width="46" height="30"/>
+                                                <color key="backgroundColor" red="0.0035728536969999998" green="0.51687985749999998" blue="0.019130363090000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LOI-b2-lAw">
+                                                <rect key="frame" x="100" y="0.0" width="46" height="30"/>
+                                                <color key="backgroundColor" red="0.0035728536969999998" green="0.51687985749999998" blue="0.019130363090000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HhL-1M-3uk">
+                                                <rect key="frame" x="150" y="0.0" width="46" height="30"/>
+                                                <color key="backgroundColor" red="0.0035728536969999998" green="0.51687985749999998" blue="0.019130363090000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MSW-qq-p5Z">
+                                                <rect key="frame" x="200" y="0.0" width="46" height="30"/>
+                                                <color key="backgroundColor" red="0.0035728536969999998" green="0.51687985749999998" blue="0.019130363090000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UJz-dc-uqr">
+                                                <rect key="frame" x="250" y="0.0" width="46" height="30"/>
+                                                <color key="backgroundColor" red="0.0035728536969999998" green="0.51687985749999998" blue="0.019130363090000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f2g-KN-wqW">
+                                                <rect key="frame" x="300" y="0.0" width="46" height="30"/>
+                                                <color key="backgroundColor" red="0.0035728536969999998" green="0.51687985749999998" blue="0.019130363090000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6pg-ad-rd2">
+                                                <rect key="frame" x="350" y="0.0" width="46" height="30"/>
+                                                <color key="backgroundColor" red="0.0035728536969999998" green="0.51687985749999998" blue="0.019130363090000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="zYW-mT-ke0">
-                                        <rect key="frame" x="0.0" y="225" width="348" height="40"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="ztH-mM-Q84">
+                                        <rect key="frame" x="0.0" y="170" width="396" height="30"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ioU-Jg-9gH" customClass="MyImageView" customModule="othello_reversi" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
-                                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="40" id="agt-Lq-TSf"/>
-                                                    <constraint firstAttribute="width" constant="40" id="cDv-f2-IVW"/>
-                                                </constraints>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="FgW-v6-5gn" customClass="MyImageView" customModule="othello_reversi" customModuleProvider="target">
-                                                <rect key="frame" x="44" y="0.0" width="40" height="40"/>
-                                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="40" id="5cY-4F-eGC"/>
-                                                    <constraint firstAttribute="width" constant="40" id="J1l-2R-Av0"/>
-                                                </constraints>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="S5l-uq-k1u" customClass="MyImageView" customModule="othello_reversi" customModuleProvider="target">
-                                                <rect key="frame" x="88" y="0.0" width="40" height="40"/>
-                                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="40" id="JXG-3e-scf"/>
-                                                    <constraint firstAttribute="height" constant="40" id="K9e-U9-wZ5"/>
-                                                </constraints>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xRQ-4s-cpL" customClass="MyImageView" customModule="othello_reversi" customModuleProvider="target">
-                                                <rect key="frame" x="132" y="0.0" width="40" height="40"/>
-                                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="40" id="xy8-xW-Fdk"/>
-                                                    <constraint firstAttribute="width" constant="40" id="ylS-ZH-TUo"/>
-                                                </constraints>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="rjU-dg-3Hv" customClass="MyImageView" customModule="othello_reversi" customModuleProvider="target">
-                                                <rect key="frame" x="176" y="0.0" width="40" height="40"/>
-                                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="40" id="Qsb-LF-zBc"/>
-                                                    <constraint firstAttribute="height" constant="40" id="Sta-RN-Y0J"/>
-                                                </constraints>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="eTs-c4-2Xx" customClass="MyImageView" customModule="othello_reversi" customModuleProvider="target">
-                                                <rect key="frame" x="220" y="0.0" width="40" height="40"/>
-                                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="40" id="YIB-dh-MwX"/>
-                                                    <constraint firstAttribute="width" constant="40" id="ntj-1t-10t"/>
-                                                </constraints>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="c7U-7j-Bi6" customClass="MyImageView" customModule="othello_reversi" customModuleProvider="target">
-                                                <rect key="frame" x="264" y="0.0" width="40" height="40"/>
-                                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="40" id="BLu-ze-xnr"/>
-                                                    <constraint firstAttribute="height" constant="40" id="jlF-Aq-lJw"/>
-                                                </constraints>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="LrH-dU-Gao" customClass="MyImageView" customModule="othello_reversi" customModuleProvider="target">
-                                                <rect key="frame" x="308" y="0.0" width="40" height="40"/>
-                                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="40" id="cwr-Fq-ulE"/>
-                                                    <constraint firstAttribute="width" constant="40" id="zeu-HR-Ylq"/>
-                                                </constraints>
-                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Pb-OD-pVM">
+                                                <rect key="frame" x="0.0" y="0.0" width="46" height="30"/>
+                                                <color key="backgroundColor" red="0.0035728536969999998" green="0.51687985749999998" blue="0.019130363090000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0MV-gK-6GF">
+                                                <rect key="frame" x="50" y="0.0" width="46" height="30"/>
+                                                <color key="backgroundColor" red="0.0035728536969999998" green="0.51687985749999998" blue="0.019130363090000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pkg-pi-r0Q">
+                                                <rect key="frame" x="100" y="0.0" width="46" height="30"/>
+                                                <color key="backgroundColor" red="0.0035728536969999998" green="0.51687985749999998" blue="0.019130363090000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qrM-8U-JJQ">
+                                                <rect key="frame" x="150" y="0.0" width="46" height="30"/>
+                                                <color key="backgroundColor" red="0.0035728536969999998" green="0.51687985749999998" blue="0.019130363090000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d5N-L7-B2S">
+                                                <rect key="frame" x="200" y="0.0" width="46" height="30"/>
+                                                <color key="backgroundColor" red="0.0035728536969999998" green="0.51687985749999998" blue="0.019130363090000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iI6-O6-b7c">
+                                                <rect key="frame" x="250" y="0.0" width="46" height="30"/>
+                                                <color key="backgroundColor" red="0.0035728536969999998" green="0.51687985749999998" blue="0.019130363090000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y2g-K2-XHN">
+                                                <rect key="frame" x="300" y="0.0" width="46" height="30"/>
+                                                <color key="backgroundColor" red="0.0035728536969999998" green="0.51687985749999998" blue="0.019130363090000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a7L-mF-NXa">
+                                                <rect key="frame" x="350" y="0.0" width="46" height="30"/>
+                                                <color key="backgroundColor" red="0.0035728536969999998" green="0.51687985749999998" blue="0.019130363090000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="ciZ-ie-d73">
-                                        <rect key="frame" x="0.0" y="270" width="348" height="40"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="4as-IO-DXs">
+                                        <rect key="frame" x="0.0" y="204" width="396" height="30"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Z6T-Bp-3fQ" customClass="MyImageView" customModule="othello_reversi" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
-                                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="40" id="oST-AK-ZBO"/>
-                                                    <constraint firstAttribute="width" constant="40" id="rfz-Ad-73f"/>
-                                                </constraints>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ezm-vx-LJm" customClass="MyImageView" customModule="othello_reversi" customModuleProvider="target">
-                                                <rect key="frame" x="44" y="0.0" width="40" height="40"/>
-                                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="40" id="26M-Ux-buN"/>
-                                                    <constraint firstAttribute="width" constant="40" id="9RD-a7-ete"/>
-                                                </constraints>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="a5F-KC-JYc" customClass="MyImageView" customModule="othello_reversi" customModuleProvider="target">
-                                                <rect key="frame" x="88" y="0.0" width="40" height="40"/>
-                                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="40" id="03q-Tu-1ec"/>
-                                                    <constraint firstAttribute="width" constant="40" id="zSh-1d-ut3"/>
-                                                </constraints>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="YBV-Vu-z3H" customClass="MyImageView" customModule="othello_reversi" customModuleProvider="target">
-                                                <rect key="frame" x="132" y="0.0" width="40" height="40"/>
-                                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="40" id="7uh-br-AYV"/>
-                                                    <constraint firstAttribute="width" constant="40" id="sWo-IY-kvF"/>
-                                                </constraints>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="8Qx-i0-QVW" customClass="MyImageView" customModule="othello_reversi" customModuleProvider="target">
-                                                <rect key="frame" x="176" y="0.0" width="40" height="40"/>
-                                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="40" id="Xpi-IY-MnL"/>
-                                                    <constraint firstAttribute="height" constant="40" id="d0P-3D-RHK"/>
-                                                </constraints>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wPQ-dL-ciT" customClass="MyImageView" customModule="othello_reversi" customModuleProvider="target">
-                                                <rect key="frame" x="220" y="0.0" width="40" height="40"/>
-                                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="40" id="8Wh-ot-4gd"/>
-                                                    <constraint firstAttribute="width" constant="40" id="Y8h-mV-xdj"/>
-                                                </constraints>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dnU-Jg-n3L" customClass="MyImageView" customModule="othello_reversi" customModuleProvider="target">
-                                                <rect key="frame" x="264" y="0.0" width="40" height="40"/>
-                                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="40" id="JgE-EO-yef"/>
-                                                    <constraint firstAttribute="height" constant="40" id="MpH-xc-7qg"/>
-                                                </constraints>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6sT-ZF-0Ih" customClass="MyImageView" customModule="othello_reversi" customModuleProvider="target">
-                                                <rect key="frame" x="308" y="0.0" width="40" height="40"/>
-                                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="40" id="b4u-1h-pAA"/>
-                                                    <constraint firstAttribute="width" constant="40" id="oR7-XU-htz"/>
-                                                </constraints>
-                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AcH-W2-i9Q">
+                                                <rect key="frame" x="0.0" y="0.0" width="46" height="30"/>
+                                                <color key="backgroundColor" red="0.0035728536969999998" green="0.51687985749999998" blue="0.019130363090000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ek4-V4-dSM">
+                                                <rect key="frame" x="50" y="0.0" width="46" height="30"/>
+                                                <color key="backgroundColor" red="0.0035728536969999998" green="0.51687985749999998" blue="0.019130363090000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="je9-Bu-4Pk">
+                                                <rect key="frame" x="100" y="0.0" width="46" height="30"/>
+                                                <color key="backgroundColor" red="0.0035728536969999998" green="0.51687985749999998" blue="0.019130363090000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ESl-Hc-Tki">
+                                                <rect key="frame" x="150" y="0.0" width="46" height="30"/>
+                                                <color key="backgroundColor" red="0.0035728536969999998" green="0.51687985749999998" blue="0.019130363090000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r3f-m7-ovI">
+                                                <rect key="frame" x="200" y="0.0" width="46" height="30"/>
+                                                <color key="backgroundColor" red="0.0035728536969999998" green="0.51687985749999998" blue="0.019130363090000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E6M-i9-FAi">
+                                                <rect key="frame" x="250" y="0.0" width="46" height="30"/>
+                                                <color key="backgroundColor" red="0.0035728536969999998" green="0.51687985749999998" blue="0.019130363090000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8fP-ge-TES">
+                                                <rect key="frame" x="300" y="0.0" width="46" height="30"/>
+                                                <color key="backgroundColor" red="0.0035728536969999998" green="0.51687985749999998" blue="0.019130363090000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eDw-3M-Q33">
+                                                <rect key="frame" x="350" y="0.0" width="46" height="30"/>
+                                                <color key="backgroundColor" red="0.0035728536969999998" green="0.51687985749999998" blue="0.019130363090000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="fS4-B3-Mqz">
-                                        <rect key="frame" x="0.0" y="315" width="348" height="40"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="cGb-vu-9Yn">
+                                        <rect key="frame" x="0.0" y="238" width="396" height="30"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="iMH-xc-Tbr" customClass="MyImageView" customModule="othello_reversi" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
-                                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="40" id="hgL-m3-a8D"/>
-                                                    <constraint firstAttribute="width" constant="40" id="rnS-0M-JzX"/>
-                                                </constraints>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jql-JF-sMN" customClass="MyImageView" customModule="othello_reversi" customModuleProvider="target">
-                                                <rect key="frame" x="44" y="0.0" width="40" height="40"/>
-                                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="40" id="QFb-Mp-BKI"/>
-                                                    <constraint firstAttribute="height" constant="40" id="mvh-sG-lVR"/>
-                                                </constraints>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jIO-WW-kNm" customClass="MyImageView" customModule="othello_reversi" customModuleProvider="target">
-                                                <rect key="frame" x="88" y="0.0" width="40" height="40"/>
-                                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="40" id="LgX-Sy-56B"/>
-                                                    <constraint firstAttribute="width" constant="40" id="ZyE-Sq-Hrv"/>
-                                                </constraints>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="kJd-zy-k8Z" customClass="MyImageView" customModule="othello_reversi" customModuleProvider="target">
-                                                <rect key="frame" x="132" y="0.0" width="40" height="40"/>
-                                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="40" id="hXT-r6-8X0"/>
-                                                    <constraint firstAttribute="width" constant="40" id="uEb-kL-Uah"/>
-                                                </constraints>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="l8a-HL-KVy" customClass="MyImageView" customModule="othello_reversi" customModuleProvider="target">
-                                                <rect key="frame" x="176" y="0.0" width="40" height="40"/>
-                                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="40" id="FVQ-9a-2Rq"/>
-                                                    <constraint firstAttribute="width" constant="40" id="ojH-mw-tLr"/>
-                                                </constraints>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="GgO-pC-mrv" customClass="MyImageView" customModule="othello_reversi" customModuleProvider="target">
-                                                <rect key="frame" x="220" y="0.0" width="40" height="40"/>
-                                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="40" id="Vam-ss-Le6"/>
-                                                    <constraint firstAttribute="height" constant="40" id="eej-El-iuP"/>
-                                                </constraints>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dze-jE-3S3" customClass="MyImageView" customModule="othello_reversi" customModuleProvider="target">
-                                                <rect key="frame" x="264" y="0.0" width="40" height="40"/>
-                                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="40" id="ZQV-YW-abD"/>
-                                                    <constraint firstAttribute="height" constant="40" id="cWi-4r-0x1"/>
-                                                </constraints>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="NzQ-Oa-4Xs" customClass="MyImageView" customModule="othello_reversi" customModuleProvider="target">
-                                                <rect key="frame" x="308" y="0.0" width="40" height="40"/>
-                                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="40" id="4Gd-AU-4aR"/>
-                                                    <constraint firstAttribute="width" constant="40" id="gsU-6e-L9K"/>
-                                                </constraints>
-                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QAY-TT-Ec3">
+                                                <rect key="frame" x="0.0" y="0.0" width="46" height="30"/>
+                                                <color key="backgroundColor" red="0.0035728536969999998" green="0.51687985749999998" blue="0.019130363090000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DgM-cC-GMg">
+                                                <rect key="frame" x="50" y="0.0" width="46" height="30"/>
+                                                <color key="backgroundColor" red="0.0035728536969999998" green="0.51687985749999998" blue="0.019130363090000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Nn-xc-rtZ">
+                                                <rect key="frame" x="100" y="0.0" width="46" height="30"/>
+                                                <color key="backgroundColor" red="0.0035728536969999998" green="0.51687985749999998" blue="0.019130363090000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KTa-fh-ivF">
+                                                <rect key="frame" x="150" y="0.0" width="46" height="30"/>
+                                                <color key="backgroundColor" red="0.0035728536969999998" green="0.51687985749999998" blue="0.019130363090000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QYl-qP-e0J">
+                                                <rect key="frame" x="200" y="0.0" width="46" height="30"/>
+                                                <color key="backgroundColor" red="0.0035728536969999998" green="0.51687985749999998" blue="0.019130363090000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IZV-Tb-vkN">
+                                                <rect key="frame" x="250" y="0.0" width="46" height="30"/>
+                                                <color key="backgroundColor" red="0.0035728536969999998" green="0.51687985749999998" blue="0.019130363090000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kO0-Uw-f7Q">
+                                                <rect key="frame" x="300" y="0.0" width="46" height="30"/>
+                                                <color key="backgroundColor" red="0.0035728536969999998" green="0.51687985749999998" blue="0.019130363090000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gGc-Np-jcF">
+                                                <rect key="frame" x="350" y="0.0" width="46" height="30"/>
+                                                <color key="backgroundColor" red="0.0035728536969999998" green="0.51687985749999998" blue="0.019130363090000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
                                         </subviews>
                                     </stackView>
                                 </subviews>
@@ -575,11 +383,14 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemGray4Color" red="0.81960784310000001" green="0.81960784310000001" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="deJ-F7-K9Y" firstAttribute="centerX" secondItem="olA-Od-VGS" secondAttribute="centerX" id="esY-gt-yku"/>
-                            <constraint firstItem="deJ-F7-K9Y" firstAttribute="centerY" secondItem="olA-Od-VGS" secondAttribute="centerY" id="f6W-1O-B72"/>
+                            <constraint firstItem="AeL-uM-ESg" firstAttribute="centerY" secondItem="olA-Od-VGS" secondAttribute="centerY" id="AsF-3t-tP1"/>
+                            <constraint firstItem="AeL-uM-ESg" firstAttribute="centerX" secondItem="olA-Od-VGS" secondAttribute="centerX" id="G8g-Mj-i9P"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="YoH-zE-bd9"/>
                     </view>
+                    <connections>
+                        <outlet property="board" destination="AeL-uM-ESg" id="GDu-hg-TeV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
             </objects>

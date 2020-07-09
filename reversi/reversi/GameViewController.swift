@@ -11,28 +11,42 @@ import SpriteKit
 import GameplayKit
 
 class GameViewController: UIViewController {
+    
+    @IBOutlet weak var board: UIStackView!
     let game = GameClass()
     override func viewDidLoad() {
         super.viewDidLoad()
         print("viewDidLoad")
-        game.test()
-        if let view = self.view as! SKView? {
-            // Load the SKScene from 'GameScene.sks'
-            if let scene = SKScene(fileNamed: "GameScene") {
-                // Set the scale mode to scale to fit the window
-                scene.scaleMode = .aspectFill
-                
-                // Present the scene
-                view.presentScene(scene)
+        
+        var tag : Int = 0
+        for views in board.subviews {
+            for view in views.subviews {
+                let v = view as! UIButton
+                v.tag = tag
+                if tag == 35 || tag == 28 {
+                    v.setImage(UIImage(named: "black") , for: UIControl.State.normal)
+                    v.tintColor = UIColor.black
+                } else if tag == 36 || tag == 27 {
+                    v.setImage(UIImage(named: "white") , for: UIControl.State.normal)
+                    v.tintColor = UIColor.white
+                } else {
+                    v.setImage(UIImage(named: "green") , for: UIControl.State.normal)
+                    v.tintColor = UIColor(displayP3Red: 0.0, green: 0.5, blue: 0.0, alpha: 1.0)
+                }
+                v.setTitle("", for: UIControl.State.normal)
+                v.addTarget(self, action: #selector(pushButton), for: .touchUpInside)
+                tag += 1
             }
-            
-            view.ignoresSiblingOrder = true
-            
-            view.showsFPS = true
-            view.showsNodeCount = true
         }
+        
+        game.test()
     }
 
+    @objc func pushButton(sender: UIButton) {
+        print(sender.tag)
+        game.put(tag: sender.tag)
+    }
+    
     override var shouldAutorotate: Bool {
         return true
     }
